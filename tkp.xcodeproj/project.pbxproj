@@ -1,0 +1,56 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+A = {
+	isa = PBXProject;
+	attributes = { LastUpgradeCheck = 1600; };
+	buildConfigurationList = R;
+	compatibilityVersion = "Xcode 16.0";
+	developmentRegion = en;
+	mainGroup = C;
+	productRefGroup = D;
+	projectDirPath = "";
+	targets = (E);
+};
+
+C = { isa = PBXGroup; children = (D, H); sourceTree = "<group>"; };
+D = { isa = PBXGroup; children = (I); name = Products; sourceTree = "<group>"; };
+H = { isa = PBXGroup; children = (J,K,L,M,N,O,P,Q); path = tkp; sourceTree = "<group>"; };
+
+I = { isa = PBXFileReference; explicitFileType = wrapper.application; path = tkp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+
+J = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkpApp.swift; sourceTree = "<group>"; };
+K = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRootView.swift; sourceTree = "<group>"; };
+L = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDAVSetupView.swift; sourceTree = "<group>"; };
+M = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+N = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASLoader.swift; sourceTree = "<group>"; };
+O = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerFullView.swift; sourceTree = "<group>"; };
+P = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCacheManager.swift; sourceTree = "<group>"; };
+Q = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalPager.swift; sourceTree = "<group>"; };
+
+E = { isa = PBXNativeTarget; buildConfigurationList = R; buildPhases = (S,T,U); name = tkp; productName = tkp; productReference = I; productType = "com.apple.product-type.application"; };
+
+S = { isa = PBXSourcesBuildPhase; files = (V,W,X,Y,Z,PA,PB,PC); };
+
+V = { isa = PBXBuildFile; fileRef = J; };
+W = { isa = PBXBuildFile; fileRef = K; };
+X = { isa = PBXBuildFile; fileRef = L; };
+Y = { isa = PBXBuildFile; fileRef = M; };
+Z = { isa = PBXBuildFile; fileRef = N; };
+PA = { isa = PBXBuildFile; fileRef = O; };
+PB = { isa = PBXBuildFile; fileRef = P; };
+PC = { isa = PBXBuildFile; fileRef = Q; };
+
+RC1 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { INFOPLIST_FILE = tkp/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.weizhong.tkp; PRODUCT_NAME = tkp; EXECUTABLE_NAME = tkp; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 15.0; ALWAYS_SEARCH_USER_PATHS = NO; }; };
+
+RC2 = { isa = XCBuildConfiguration; name = Release; buildSettings = { INFOPLIST_FILE = tkp/Info.plist; PRODUCT_BUNDLE_IDENTIFIER = com.weizhong.tkp; PRODUCT_NAME = tkp; EXECUTABLE_NAME = tkp; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 15.0; ALWAYS_SEARCH_USER_PATHS = NO; }; };
+
+R = { isa = XCConfigurationList; buildConfigurations = (RC1, RC2); defaultConfigurationName = Release; };
+
+	};
+	rootObject = A;
+}
